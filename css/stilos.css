@@ -67,21 +67,30 @@ h2{
    
    .caja1{
     grid-area: "caja1";
-    background-color: yellowgreen;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 50%, #ffffff 100%);
+
     text-align: center;
     }
    .caja2{
     grid-area: caja2;
-    background-color: burlywood;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 22%, #ff70f6 49%, #ffffff 75%, #ffffff 100%)
+;
    text-align: center;}
    .caja3{
     grid-area: caja3;
-    
-    
-    
-    
+    }
+    .articulo-diseño{
+        background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 22%, #ff70f6 49%, #ffffff 75%, #ffffff 100%);
 
-   }
+    }
+    .articulo-vestido{
+        background-color: #4158D0;
+background-image: linear-gradient(217deg, #4158D0 0%, #C850C0 12%, #FFCC70 66%, #ffffff 100%);
+
+    }
 
 .contenedor-recepcion{
     padding: 10px 10px 10px 10px;
@@ -94,17 +103,23 @@ h2{
     }
     .caja-recepcion1{
         grid-area: "vestido";
-        background-color: antiquewhite;
+        background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
         text-align: left;
     }
     .caja-recepcion2{
         grid-area: "noche";
-        background-color: yellowgreen;
+        background-color: #FBDA61;
+        background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+         
         text-align: right;
     }
 
 .contacto{
-    background-color: white;
+    background-color: #FA8BFF;
+background-image: linear-gradient(326deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
     padding: 3rem;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
